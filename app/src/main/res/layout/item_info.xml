@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/item_comer"
+    android:padding="3dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/AQI_image"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_green_comer_16"
+        android:layout_gravity="center_vertical"
+        android:padding="5dp"
+        android:src="@drawable/green"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/AQI_index"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/muli_black"
+            android:paddingBottom="5dp"
+            android:text="0-50: Tốt"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:textSize="17dp"/>
+
+        <TextView
+            android:id="@+id/AQI_affect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:text="Chất lượng không khí tốt, không ảnh hưởng tới sức khỏe."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:fontFamily="@font/muli_black"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="17dp"
+            android:text="Khuyến nghị:"/>
+
+        <TextView
+            android:id="@+id/AQI_recommendations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="17dp"
+            android:text="Tự do thực hiện các hoạt động ngoài trời."/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

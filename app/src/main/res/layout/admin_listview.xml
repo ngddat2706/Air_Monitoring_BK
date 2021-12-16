@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/item_comer">
+
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="80dp"
+        android:background="@drawable/left_comer"
+        />
+    <ImageView
+        android:id="@+id/imageAdmin"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:src="@drawable/admin"
+
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+        <TextView
+            android:id="@+id/nameAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:gravity="center|left"
+            android:textStyle="bold"
+            android:fontFamily="@font/baloo"
+            android:textColor="@color/black"
+            android:text="Admin0"/>
+        <TextView
+            android:id="@+id/emailAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:text="Admin0@gmail.com"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="right"
+        >
+
+        <ImageView
+            android:id="@+id/edit_admin_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/edit_icon"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/delete_admin_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete_icon"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

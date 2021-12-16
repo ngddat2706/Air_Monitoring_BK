@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.Parameter_Fragment"
+    android:background="@drawable/background_good"
+    android:id="@+id/bgParameter">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                >
+
+                <com.akaita.android.circularseekbar.CircularSeekBar
+                    android:id="@+id/seekbar_paramenter"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    app:enabled="false"
+                    app:innerCircleColor="@color/white"
+                    app:max="500"
+                    app:min="0"
+                    app:progress="0"
+                    app:progressTextColor="@color/black"
+                    app:progressTextSize="24"
+                    app:ringColor="@color/teal_700"
+                    app:showIndicator="true"
+                    app:showInnerCircle="true"
+                    app:showProgressText="true"
+                    app:speedMultiplier="2"
+                    />
+
+                <TextView
+                    android:id="@+id/ParamenterName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="PM 2.5"
+                    android:textSize="30dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="right"
+                android:layout_margin="5dp"
+                android:background="@drawable/bg_gray_comer_16">
+
+                <Button
+                    android:id="@+id/HourBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/item_comer"
+                    android:text="HOURLY"
+                    android:textColor="@color/black"
+                    android:textSize="12dp"/>
+
+                <Button
+                    android:id="@+id/DayBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_gray_comer_16"
+                    android:text="DAY"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/bg_white_comer_16">
+
+                <com.github.mikephil.charting.charts.BarChart
+                    android:id="@+id/barchart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="350dp"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.Information"
+    android:padding="15dp"
+    android:background="@drawable/menubg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingBottom="10dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:text="Đánh giá chỉ số chất lượng không khí:"
+            />
+        <TextView
+            android:id="@+id/information_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Chỉ số chất lượng không khí Việt Nam (viết tắt là VN_AQI) là chỉ số được tính toán từ các thông số quan trắc các chất ô nhiễm trong không khí ở Việt Nam, nhằm cho biết tình trạng chất lượng không khí và mức độ ảnh hưởng đến sức khỏe con người, được biểu diễn qua một thang điểm."
+            android:paddingBottom="10dp"
+            android:textSize="17dp"
+            />
+
+        <TextView
+            android:id="@+id/information_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Chỉ số chất lượng không khí được tính theo thang điểm (khoảng giá trị AQI) tương ứng với biểu tượng và các màu sắc để cảnh báo chất lượng không khí và mức độ ảnh hưởng tới sức khỏe con người, cụ thể như sau:"
+            android:paddingBottom="20dp"
+            android:textSize="17dp"
+            />
+
+        <ListView
+            android:id="@+id/ListViewInfo"
+            android:layout_width="match_parent"
+            android:layout_height="2300dp"
+            android:scrollbars="none"
+
+            />
+    </LinearLayout>
+</ScrollView>

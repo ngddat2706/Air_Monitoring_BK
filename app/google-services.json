@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "900317291399",
+    "project_id": "air-monitoring-bk",
+    "storage_bucket": "air-monitoring-bk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900317291399:android:cf896d242e97fbd052a922",
+        "android_client_info": {
+          "package_name": "com.example.air_monitoring_bk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900317291399-6g7jas5bgtencdjt2kv6v0mnckjcm24j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq0NAFb6_xI9E0TiYOfNe4FifiWg3BcGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900317291399-6g7jas5bgtencdjt2kv6v0mnckjcm24j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@drawable/item_comer"
+    android:gravity="bottom"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imageAdmin"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/admin_icon"/>
+
+    <TextView
+        android:id="@+id/Admin_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo"
+        android:text="Admin0"
+        android:textSize="24sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Admin_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="admin0@hcmut.edu.vn"
+        android:textSize="14sp"
+        android:textColor="@color/black"/>
+</LinearLayout>

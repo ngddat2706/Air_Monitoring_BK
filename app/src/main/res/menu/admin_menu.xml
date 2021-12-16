@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home_icon"/>
+        <item
+            android:id="@+id/nav_Admin"
+            android:title="Admin"
+            android:icon="@drawable/admin_icon"/>
+
+        <item
+            android:id="@+id/nav_Station"
+            android:title="Station"
+            android:icon="@drawable/station_icon"/>
+
+        <item
+            android:id="@+id/nav_report"
+            android:title="Report"
+            android:icon="@drawable/report_icon"/>
+
+        <item
+            android:id="@+id/nav_infor"
+            android:title="Information"
+            android:icon="@drawable/info_icon"/>
+
+        <item
+            android:id="@+id/nav_login"
+            android:title="LogIn"
+            android:icon="@drawable/login_icon"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="LogOut"
+            android:icon="@drawable/logout_icon"/>
+
+
+    </group>
+</menu>

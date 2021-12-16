@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="40dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/item_comer">
+
+    <ImageView
+        android:id="@+id/DeleteParameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/delete_icon"
+        android:padding="5dp"
+        android:layout_toLeftOf="@+id/checkbox_parameter"
+        android:layout_centerVertical="true"
+        />
+
+    <ImageView
+        android:id="@+id/EditParameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/DeleteParameter"
+        android:padding="5dp"
+        android:src="@drawable/edit_icon" />
+
+    <CheckBox
+        android:id="@+id/checkbox_parameter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:textColor="@color/black"
+        android:focusableInTouchMode="false"
+    />
+    <TextView
+        android:id="@+id/tv_parameter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ParameterName"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:layout_alignBaseline="@+id/checkbox_parameter"
+        android:layout_alignBottom="@id/checkbox_parameter"
+        android:layout_toLeftOf="@id/checkbox_parameter"
+        />
+
+</RelativeLayout>
